@@ -1,0 +1,48 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.login-box{
+	width: 280px;
+	position: absolute;
+	top: 60%;
+	left: 53%;
+	transform: translate(-50%,-50%);	
+}
+.login-box h1{
+	float: left;
+	font-size: 40px;
+	border-bottom: 4px solid #dfa57d;
+	margin-bottom: 30px;
+	padding: 10px 0;
+}
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid #dfa57d;	
+}
+.textbox i{
+	width: 26px;
+	float: left;
+	text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: black;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn{
+  width: 100%;
+  background: none;
+  border: 2px solid #DC143C;
+  color:  #000000;
+  padding: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 12px 0;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kaar Tech</title>
+	<link rel="stylesheet" href="design.css">
+	<script type="text/javascript">
+     function customerfunction() {
+          window.location = "customerlogin.html"; //if you want to redirect
+     }
+	 function vendorfunction() {
+          window.location = "vendorlogin.html"; //if you want to redirect
+     }
+	 function employeefunction() {
+          window.location = "employeelogin.html"; //if you want to redirect
+     }
+	</script>
+  </head>	
+ <body>
+	<header>
+	<h1>Welcome to Kaar Technologies</h1><br><br>
+	<h2> SAP ERP Portal</h2>
+		<div class="wrapper">
+			<div class="logo">
+				<img src="kaar.jpg">
+			</div>
+			<ul class="nav-area">
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>	
+		<div class="welcome-text" >
+		   <h3>Select your Portal!!</h3><br><br>
+			<td align="left">
+				<input type='radio' name="test" value = "customer" id = "customerid" onclick='customerfunction()' />Customer Portal<br><br>
+				<input type='radio' name="test" value = "vendor" id = "vendorid" onclick='vendorfunction()' />Vendor Portal<br><br>
+				<input type='radio' name="test" value = "employee" id = "Employeeid" onclick='employeefunction()' /> Employee portal<br><br>
+				<input type='radio' name="test" value = "maintenance" id = "Maintenanceid" onclick='employeefunction()' />Maintenance Portal<br><br>
+				<input type='radio' name="test" value = "shopfloor" id = "ShopFloorid" onclick='employeefunction()' />Shop Floor portal<br><br>
+				<input type='radio' name="test" value = "EHSM" id = "EHSMid" onclick='employeefunction()' />EHSM - Safety Ticket portal<br><br>
+				<input type='radio' name="test" value = "quality" id = "Qualitycheckid" onclick='employeefunction()' />Quality Check portal
+</td>
+		</div>
+	</header>
+ </body>
+ </html>

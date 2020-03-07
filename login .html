@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>login page</title>
+			<script type="text/javascript">
+			function validate()
+			{
+				var username = document.getElementById("uname");
+				var password = document.getElementById("pass");
+				if(username.value=="kaar")
+				{
+					if(password.value=="kaar123")
+					{
+						alert("login successful");
+						return true;
+					}
+					else
+						{
+							alert("Password wrong");
+				
+						}
+				}
+				else
+					{
+						alert("Username wrong");
+						false;
+					}
+			}
+			</script>
+		
+		<link rel="stylesheet" href="style.css">
+		<style>
+		body{
+			background-image: url(kaar.png);
+			background-repeat: no-repeat;
+			background-size: 250px;
+			background-position:top;
+		}
+		</style>
+	<body>
+		<div class="login-box">
+			<h1>LOG IN</h1>
+			<div class="textbox">
+				<i class="fa fa-user" aria-hidden="true" ></i>
+				<input type="text" name="" placeholder="username" value="">
+			</div>
+			<div class="textbox">
+				<i class="fa fa-lock" aria-hidden="true"></i>
+				<input type="password" name="" placeholder="password" value="">
+			</div>
+			<input class="btn" type="button" name="" value="log-in">
+		</div>
+	</body>
+</html>
+	

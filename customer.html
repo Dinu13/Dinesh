@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+			<title>Kaar Tech</title>
+			<link rel="stylesheet" href="design.css">
+			<script type="text/javascript">
+				function customerfunction() {
+					window.location = "customerlogin.html"; //if you want to redirect
+				}
+				function vendorfunction() {
+					window.location = "vendorlogin.html"; //if you want to redirect
+				}
+				function employeefunction() {
+					window.location = "employeelogin.html"; //if you want to redirect
+				}
+			</script>
+	</head>	
+	<body>
+		<header>
+			<h1>Welcome to Kaar Technologies </h1><br>
+			<h2> SAP ERP Portal</h2>
+			<div class="wrapper">
+				<div class="logo">
+					<img src="kaar.png">
+				</div>
+				<ul class="nav-area">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>	
+			<div class="welcome-text" >
+				<h3>Select your Portal!!</h3><br>
+				<td align="left">
+					<input type='submit' name="test" value = "Customer Portal" id = "customerid" onclick='customerfunction()' /><br><br>
+					<input type='submit' name="test" value = "Vendor Portal" id = "vendorid" onclick='vendorfunction()' /><br><br>
+					<input type='submit' name="test" value = "Employee portal" id = "Employeeid" onclick='employeefunction()' /><br><br>
+					<input type='submit' name="test" value = "Maintenance Portal" id = "Maintenanceid" onclick='employeefunction()' /><br><br>
+					<input type='submit' name="test" value = "Shop Floor portal" id = "ShopFloorid" onclick='employeefunction()' /><br><br>
+					<input type='submit' name="test" value = "EHSM" id = "EHSMid" onclick='employeefunction()' /><br><br>
+					<input type='submit' name="test" value = "Quality Check portal" id = "Qualitycheckid" onclick='employeefunction()' />
+				</td>
+			</div>
+		</header>
+	</body>
+ </html>
